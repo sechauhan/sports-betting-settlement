@@ -1,7 +1,7 @@
 package com.sportsbetting.settlement.repository.impl;
 
-import com.sportsbetting.settlement.domain.Bet;
-import com.sportsbetting.settlement.domain.BetStatus;
+import com.sportsbetting.settlement.dto.Bet;
+import com.sportsbetting.settlement.enums.BetStatus;
 import com.sportsbetting.settlement.repository.BetRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Repository;

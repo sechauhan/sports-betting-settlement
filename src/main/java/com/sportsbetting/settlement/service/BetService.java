@@ -1,8 +1,8 @@
 package com.sportsbetting.settlement.service;
 
 import com.sportsbetting.settlement.api.dto.BetRequest;
-import com.sportsbetting.settlement.domain.Bet;
-import com.sportsbetting.settlement.domain.BetStatus;
+import com.sportsbetting.settlement.dto.Bet;
+import com.sportsbetting.settlement.enums.BetStatus;
 import com.sportsbetting.settlement.exception.BetNotFoundException;
 import com.sportsbetting.settlement.exception.DuplicateBetException;
 import com.sportsbetting.settlement.repository.BetRepository;

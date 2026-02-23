@@ -1,4 +1,4 @@
-package com.sportsbetting.settlement.domain;
+package com.sportsbetting.settlement.enums;
 
 /**
  * Status of a bet in the settlement flow.

@@ -1,4 +1,4 @@
-package com.sportsbetting.settlement.domain;
+package com.sportsbetting.settlement.dto;
 
 import com.sportsbetting.settlement.config.RocketMQProperties;
 import com.sportsbetting.settlement.service.BetSettlementProducer;

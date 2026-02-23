@@ -1,9 +1,9 @@
 package com.sportsbetting.settlement.service;
 
-import com.sportsbetting.settlement.domain.Bet;
-import com.sportsbetting.settlement.domain.BetStatus;
-import com.sportsbetting.settlement.domain.BetSettlementMessage;
-import com.sportsbetting.settlement.domain.EventOutcome;
+import com.sportsbetting.settlement.dto.Bet;
+import com.sportsbetting.settlement.enums.BetStatus;
+import com.sportsbetting.settlement.dto.BetSettlementMessage;
+import com.sportsbetting.settlement.dto.EventOutcome;
 import com.sportsbetting.settlement.repository.BetRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

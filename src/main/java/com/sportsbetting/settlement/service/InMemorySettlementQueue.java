@@ -1,6 +1,6 @@
 package com.sportsbetting.settlement.service;
 
-import com.sportsbetting.settlement.domain.BetSettlementMessage;
+import com.sportsbetting.settlement.dto.BetSettlementMessage;
 import org.springframework.stereotype.Component;
 
 import java.util.concurrent.BlockingQueue;

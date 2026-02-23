@@ -1,7 +1,7 @@
 package com.sportsbetting.settlement.service;
 
 import com.sportsbetting.settlement.config.KafkaProperties;
-import com.sportsbetting.settlement.domain.EventOutcome;
+import com.sportsbetting.settlement.dto.EventOutcome;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

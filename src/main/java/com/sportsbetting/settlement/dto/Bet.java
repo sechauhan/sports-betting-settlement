@@ -1,5 +1,6 @@
-package com.sportsbetting.settlement.domain;
+package com.sportsbetting.settlement.dto;
 
+import com.sportsbetting.settlement.enums.BetStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
