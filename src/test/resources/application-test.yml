@@ -1,0 +1,5 @@
+app:
+  kafka:
+    event-outcomes-topic: event-outcomes-test
+  rocketmq:
+    bet-settlements-topic: bet-settlements-test
