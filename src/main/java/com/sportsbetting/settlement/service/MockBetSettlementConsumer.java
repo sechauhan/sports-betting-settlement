@@ -1,9 +1,9 @@
 package com.sportsbetting.settlement.service;
 
 import com.sportsbetting.settlement.config.RocketMQProperties;
-import com.sportsbetting.settlement.dto.Bet;
+import com.sportsbetting.settlement.domain.Bet;
 import com.sportsbetting.settlement.enums.BetStatus;
-import com.sportsbetting.settlement.dto.BetSettlementMessage;
+import com.sportsbetting.settlement.domain.BetSettlementMessage;
 import com.sportsbetting.settlement.repository.BetRepository;
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;

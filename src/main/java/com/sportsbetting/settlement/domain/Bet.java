@@ -1,23 +1,21 @@
-package com.sportsbetting.settlement.dto;
+package com.sportsbetting.settlement.domain;
 
+import com.sportsbetting.settlement.enums.BetStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
- * Message sent to the bet-settlements in-memory queue for settling a bet.
+ * A bet stored in memory (HashMap), to be matched and settled based on event outcomes.
  */
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class BetSettlementMessage implements Serializable {
-
-    private static final long serialVersionUID = 1L;
+public class Bet {
 
     private String betId;
     private String userId;
@@ -25,5 +23,7 @@ public class BetSettlementMessage implements Serializable {
     private String eventMarketId;
     private String eventWinnerId;
     private BigDecimal betAmount;
-    private boolean won;
+
+    @Builder.Default
+    private BetStatus status = BetStatus.PENDING;
 }

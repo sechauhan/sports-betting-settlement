@@ -1,7 +1,7 @@
 package com.sportsbetting.settlement.exception;
 
-import com.sportsbetting.settlement.api.dto.Error;
-import com.sportsbetting.settlement.api.dto.Response;
+import com.sportsbetting.settlement.dto.Error;
+import com.sportsbetting.settlement.dto.Response;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;

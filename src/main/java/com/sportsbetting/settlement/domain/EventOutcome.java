@@ -1,4 +1,4 @@
-package com.sportsbetting.settlement.dto;
+package com.sportsbetting.settlement.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

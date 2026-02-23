@@ -1,8 +1,8 @@
-package com.sportsbetting.settlement.api;
+package com.sportsbetting.settlement.controller;
 
-import com.sportsbetting.settlement.api.dto.EventOutcomePublishResult;
-import com.sportsbetting.settlement.api.dto.EventOutcomeRequest;
-import com.sportsbetting.settlement.api.dto.Response;
+import com.sportsbetting.settlement.dto.EventOutcomeRequest;
+import com.sportsbetting.settlement.dto.Response;
+import com.sportsbetting.settlement.constants.ApiEndpoint;
 import com.sportsbetting.settlement.service.EventOutcomeService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -21,7 +21,7 @@ public class EventOutcomeController {
     private final EventOutcomeService eventOutcomeService;
 
     @PostMapping
-    public ResponseEntity<Response<EventOutcomePublishResult>> publishEventOutcome(@Valid @RequestBody EventOutcomeRequest request) {
+    public ResponseEntity<Object> publishEventOutcome(@Valid @RequestBody EventOutcomeRequest request) {
         eventOutcomeService.publishEventOutcome(request);
         return ResponseEntity.status(HttpStatus.ACCEPTED).body(Response.success(HttpStatus.ACCEPTED.value()));
     }

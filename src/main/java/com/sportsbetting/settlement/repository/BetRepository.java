@@ -1,6 +1,6 @@
 package com.sportsbetting.settlement.repository;
 
-import com.sportsbetting.settlement.dto.Bet;
+import com.sportsbetting.settlement.domain.Bet;
 import com.sportsbetting.settlement.enums.BetStatus;
 
 import java.util.List;

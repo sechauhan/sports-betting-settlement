@@ -1,4 +1,4 @@
-package com.sportsbetting.settlement.api.dto;
+package com.sportsbetting.settlement.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;

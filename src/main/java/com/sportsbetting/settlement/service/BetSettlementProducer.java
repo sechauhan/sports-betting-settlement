@@ -1,7 +1,7 @@
 package com.sportsbetting.settlement.service;
 
 import com.sportsbetting.settlement.config.RocketMQProperties;
-import com.sportsbetting.settlement.dto.BetSettlementMessage;
+import com.sportsbetting.settlement.domain.BetSettlementMessage;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

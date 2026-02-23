@@ -1,4 +1,4 @@
-package com.sportsbetting.settlement.api;
+package com.sportsbetting.settlement.constants;
 
 /**
  * API endpoint path constants.
